@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "blockcompacter",
+  "version": "${version}",
+  "name": "Block Compacter",
+  "description": "A mod that compacts 8 blocks into 1 compacted block for Minecraft 1.21.1",
+  "authors": [
+    "Your Name"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.blockcompacter.BlockCompacterMod"
+    ]
+  },
+  "mixins": [
+    "blockcompacter.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  }
+}
