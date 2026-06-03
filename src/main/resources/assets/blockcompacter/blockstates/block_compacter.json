@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "blockcompacter:block/block_compacter"
+    }
+  }
+}
