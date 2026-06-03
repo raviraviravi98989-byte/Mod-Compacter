@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "blockcompacter",
+  "version": "${version}",
+  "name": "Block Compacter",
+  "description": "Adds a Block Compacter that compacts 8 of the same block into 1 using a shapeless recipe.",
+  "authors": ["BlockCompacter"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.blockcompacter.BlockCompacterMod"],
+    "client": ["com.blockcompacter.client.BlockCompacterClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1"
+  }
+}
